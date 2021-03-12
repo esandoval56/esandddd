@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Purpose To Solve JavaJam Webcase Study Chapter 2
+CMPSC 206 Spring 2021, Saint Xavier University
+
+Name:Evan Sandoval
+Data: 01/31/2021 [Sunday]
+
+File Name: index.html
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Javajam Coffee Bar</title>
+</head>
+
+<body>
+    <!-- CH02: Task 2 Step 2 !-->
+    <header>
+        <!-- CH06: Task 3 Step 1 !-->
+        <h1><a href="index.html">JavaJam Coffee Bar </a></h1>
+        <link rel="stylesheet" href="javajam.css">
+    </header>
+    <!-- CH02: Task 2 Step 3 !-->
+    <!-- CH06: Task 3 Step 2 !-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+        </ul>
+
+    </nav>
+    <!-- CH04: Task 2 Step 1 !-->
+    <!-- CH02: Task 2 Step 4 !-->
+    <div id="homehero"></div>
+    <main>
+        <!-- CH06: Task 3 Step 3 !-->
+        <!-- CH02: Task 2 Step 4.b !-->
+        <h2> Follow the Winding Road to JavaJam.</h2>
+        <p>We&#8217; re a little out of the way, but take a drive in the country down Garrett Bay Road to JavaJam today! Indulge in our locally roasted free-trade coffee and home-made pastries. You'll feel right at home at JavaJam! </p>
+        <!-- CH02: Task 2 Step 4.b !-->
+        <p>
+            Friendly and eclectic &mdash; JavaJam Coffee Bar is the perfect place to take a break, enjoy a refreshing beverage, and have a snack or light meal.
+        </p>
+        <!-- CH04: Task 4 !-->
+        <h3>JavaJam Coffee Bar features:</h3>
+        <!-- CH02: Task 2 Step 4.c !-->
+        <ul>
+
+            <li> Specialty Coffee and Organtic Tea</li>
+            <li> Bagels, Muffins, and Gluten-free Pastries</li>
+            <li> Organic Salads</li>
+            <li> Music and Poetry Readings</li>
+            <li> Open Mic Night</li>
+        </ul>
+        <div>
+            12010 Garrett Bay Road<br>
+            Ellison Bay, Wi 54210 <br>
+            888-555-5555
+        </div>
+    </main>
+    <footer> <small><i>Copyright &copy; 2021 JavaJam Coffee House <br>
+                sandoval.03@mymail.sxu.edu</i></small> </footer>
+
+</body>
+
+</html>
